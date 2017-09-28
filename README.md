@@ -25,30 +25,31 @@ Sales and Messages
          
    SOLUTION (Working of Code):
    
-    The main class InitApp runs when the code is executed, it is interlinked to other classes in sub packages of Main package. 
-    The input is taken from user through Console first, this input is than compared to with valid message formats to check if
-    the input entered by the user is valid message type. If the input entered is one of the three message types given in problem
-    statement than, it is written into an input file which than passes this data to the objects that read data from input file
-    (DataInputFile.txt).
+    The main class InitApp runs when the code is executed, it is interlinked to other classes in sub packages of   
+      Main package. 
+    The input is taken from user through Console first, this input is than compared to with valid message formats 
+    to check if the input entered by the user is valid message type. If the input entered is one of the three message 
+    types given in problem statement than, it is written into an input file which than passes this data to the objects
+    that read data from input file (DataInputFile.txt).
     
     This input is than checked for the type, to see if it is of MessageType1 or MessageType2/MessageType3. 
     
     Assumption is made that the product is fruit and is of one of them that is specified in enum Fruit.
     
-    Based on Type of incoming message, the operations are performed on each type of message and the processed messages are 
-    written out in OutputData.txt.
+    Based on Type of incoming message, the operations are performed on each type of message and the processed 
+    messages are written out in OutputData.txt.
     
     The class ApplicationTestClass tests the input for all 3 message types. 
     
-    MainFrame :-        This folder contains 4 classes that are run when the application is initialized. InitateApp contains the main 
-                        program that executes first when the application is loaded. 
+    MainFrame :-     This folder contains 4 classes that are run when the application is initialized. InitateApp     
+                   contains the main program that executes first when the application is loaded. 
                  
-    MessageOperations :-  This folder consists of all classes that perform various operations on incoming messages of three 
-                          different types.Message is an interface that is implemenented by it's sub-classes.
+    MessageOperations :-  This folder consists of all classes that perform various operations on incoming messages 
+                          of three different types.Message is an interface that is implemenented by it's sub-classes.
                          
-    Reports :-            This folder contains an interface Reports that is implemented by other classes in this folder to generate the 
-                          log report and to print them in output file.
+    Reports :-    This folder contains an interface Reports that is implemented by other classes in this folder to generate 
+                  the log report and to print them in output file.
                 
-    TestClasses :-        This folder consists of input and output files and the test classes which contains test functions to
-                          test all 3 message types.
+    TestClasses :-   This folder consists of input and output files and the test classes which contains test functions to
+                      test all 3 message types.
     
