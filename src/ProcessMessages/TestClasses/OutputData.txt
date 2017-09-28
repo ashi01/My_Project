@@ -1,0 +1,70 @@
+Sales Data After 10 more Messages: 10
+Product: apples  Price: 100 Sales:1
+Product: oranges Price: 866 Sales:41
+Sale Data After 10 more Messages: 20
+Product: apples  Price: 920 Sales:2
+Product: oranges  Price: 1568 Sales:82
+Sales Data After 10 more Messages: 30
+Product: apples   Price: 7500 Sales:3
+Product: oranges Price: 2148 Sales:123
+Sales Data After 10 more Messages: 40
+Product: apples  Price: 60160 Sales:4
+Product: oranges Price: 2648 Sales:164
+Sales Data After 10 more Messages: 50
+Product: apples  Price: 481388 Sales:5
+Product: oranges Price: 3068 Sales:205
+Maximum Limit of 50 Messages is reached.
+FinalReport: 50
+Details of Product: apple
+Message:1 Added single sale to: apple with value: 10
+Message:5 Multiply previous 1 sales to: apple with value: 2
+Message:6 Added single sale to previous 1 sales to: apple with value: 2
+Message:9 Multiply previous 1 sales to: apple with value: 2
+Message:10 Added previous 1 sales to: apple with value: 20
+Message:11 Adding single sale to: apple with value: 10
+Message:14 Multiply previous 2 sales to: apple with value: 2
+Message:16 Multiply previous 2 sales to: apple with value: 2
+Message:19 Subtract previous 2 sales to: apple with value: 2
+Message:20 Added previous 2 sales to: apple with value: 20
+Message:21 Added single sale to: apple with value: 10
+Message:23 Multiply previous 3 sales to: apple with value: 2
+Message:26 Added previous 3 sales to: apple with value: 2
+Message:29 Multiply previous 3 sales to: apple with value: 2
+Message:30 Added previous 3 sales to: apple with value: 20
+Message:31 Added single sale to: apple with value: 10
+Message:33 Multiply previous 4 sales to: apple with value: 2
+Message:36 Added previous 4 sales to: apple with value: 2
+Message:39 Multiply previous 4 sales to: apple with value: 2
+Message:40 Added previous 4 sales to: apple with value: 20
+Message:41 Added single sale to: apple with value: 1
+Message:44 Multiply previous 5 sales to: apple with value: 2
+Message:47 Multiply previous 5 sales to: apple with value: 2
+Message:50 Added previous 5 sales to: apple with value: 20
+Product: apple Price: 4813.88  Sales:500
+History of Product: orange
+Message:2 Added 20 sales to: orange with value: 41
+Message:3 Added single sale to: orange with value: 10
+Message:4 Added 20 sales to: orange with value: 10
+Message:7 Subtract previous 30 sales to: orange with value: 2
+Message:8 Subtract previous 10 sales to: orange with value: 2
+Message:12 Added 20 sales to: orange with value: 41
+Message:14 Added single sale to: orange with value: 10
+Message:15 Added 20 sales to: orange with value: 10
+Message:17 Subtract previous 82 sales to: orange with value: 2
+Message:18 Subtract previous 80 sales to: orange with value: 2
+Message:22 Added 20 sales to: orange with value: 41
+Message:24 Added single sale to: orange with value: 10
+Message:25 Added 20 sales to: orange with value: 10
+Message:27 Subtract previous 123 sales to: orange with value: 2
+Message:28 Subtract previous 123 sales to: orange with value: 2
+Message:32 Added 20 sales to: orange with value: 41
+Message:34 Added single sale to: orange with value: 10
+Message:35 Added 20 sales to: orange with value: 10
+Message:37 Subtract previous 164 sales to: orange with value: 2
+Message:38 Subtract previous 162 sales to: orange with value: 2
+Message:42 Added 20 sales to: orange with value: 41
+Message:44 Added single sale to: orange with value: 10
+Message:45 Added 20 sales to: orange with value: 10
+Message:47 Subtract previous 205 sales to: orange with value: 2
+Message:48 Subtract previous 205 sales to: orange with value: 2
+Product: orange Price: 3068 Sales:205
